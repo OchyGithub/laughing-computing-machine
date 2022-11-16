@@ -1,8 +1,8 @@
-# Shipping API - UAPIM Demo
+# Payments API - UAPIM Demo
 
 Show a single shipping order if current User has access permissions to it.
 
-**URL** : `/api/shipping/:pk/`
+**URL** : `/api/payments/:pk/`
 
 **URL Parameters** : `pk=[integer]` where `pk` is the ID of the Ship on the
 server.
@@ -54,16 +54,6 @@ permissions.
 **Code** : `403 FORBIDDEN`
 
 **NOTEBOOKS**
-
-```notebook
-// Authenticate client
-API.authenticate(myclient);
-```
-
-```notebook 
-//fetch info
-fetch('https://anypoint.mulesoft.com/exchange/api/v1/health').then((res) => res.json())
-```
 
 **Content** :
 
