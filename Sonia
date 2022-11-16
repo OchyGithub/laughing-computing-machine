@@ -1,0 +1,7 @@
+docker run --entrypoint flexctl -u $UID \
+  -v "$(pwd)":/registration mulesoft/flex-gateway \
+  register --organization=bc61a22f-b294-410d-a33f-656b1b784b3a \
+  --token=62cb3633-4bc6-47cc-a56d-1fb41eb7f58e \
+  --output-directory=/registration \
+  --connected=true \
+  <gateway-name>
