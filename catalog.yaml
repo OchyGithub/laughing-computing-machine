@@ -5,10 +5,10 @@ projects:
     version: 1.1.0
     apiVersion: v1
     contact:
-      name: 'Jane Doe'
+      name: 'Pepito Grillo'
       email: 'fake.email@org.com'
     tags:
-      - logistics
-      - commerce
+      - payments
+      - training 
     documentation:
-      Home: shipping/home.md
+      Home: home.md
